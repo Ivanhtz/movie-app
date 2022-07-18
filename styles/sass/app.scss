@@ -1,0 +1,20 @@
+$theme-colors: (
+  "primary": #fcca47,
+  "secondary": #fe914c,
+  "success": #8ba9a0,
+  "info": #ff98cc,
+  "warning": #fbf6bb,
+  "danger": #e37c8b,
+  "light": #c9ecdd,
+  "dark": #e5c0fc,
+) !default;
+
+i {
+  transition: 0.5s;
+  &:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+}
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
