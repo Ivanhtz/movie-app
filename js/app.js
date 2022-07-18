@@ -14,6 +14,8 @@ const getDataUser = () => {
     isBeen: mainForm.isBeen.checked,
   };
 
+  if (mainForm.movieTitle.value === "") return alert("Falta Título");
+  if (mainForm.movieGender.value === "") return alert("Falta el Género");
   allMovies.push(movie);
 };
 
